@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prompt Optimizer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Prompt Optimizer</h2>
+
+    <textarea 
+        id="promptInput"
+        placeholder="Enter your AI prompt here..."
+    ></textarea>
+
+
+    <button id="optimizeBtn">
+        Optimize Prompt
+    </button>
+
+
+    <div id="loading" class="hidden">
+        Optimizing...
+    </div>
+
+
+    <div class="result-section">
+
+        <h3>Optimized Prompt</h3>
+
+        <textarea 
+            id="result"
+            readonly
+        ></textarea>
+
+
+        <p id="stats"></p>
+
+    </div>
+
+
+</div>
+
+
+<script src="popup.js"></script>
+
+</body>
+
+</html>

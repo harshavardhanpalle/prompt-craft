@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt Optimizer",
+  "version": "1.0.0",
+  "description": "Optimize AI prompts before sending them to AI models.",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
