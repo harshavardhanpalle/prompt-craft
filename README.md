@@ -4,21 +4,6 @@ An AI-powered Chrome extension that optimizes user prompts before sending them t
 
 The goal is to reduce unnecessary words, preserve user intent, improve prompt clarity, and reduce token usage.
 
----
-
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/popup-demo.png" width="700" alt="Prompt Optimizer popup showing a prompt before and after optimization">
-</p>
-
-<p align="center">
-  <img src="screenshots/api-docs.png" width="700" alt="FastAPI Swagger docs for the /api/optimize endpoint">
-</p>
-
-> Add a `screenshots/` folder to the repo root and drop your images in — rename them to match the paths above, or edit the paths to match your own filenames.
-
----
 
 ## Problem Statement
 
